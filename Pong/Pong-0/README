@@ -1,0 +1,6 @@
+Update 0 focuses on setting up the basic main.lua file that will be used for the rest of the project.
+In this update I:
+- Added a Project Description
+- Created functions for initializing the game and drawing on the screen
+- Initialized the game window and set parameters for size and vsync
+- Drew Text that says 'This is Pong' and is centered on the screen

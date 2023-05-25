@@ -1,0 +1,13 @@
+Update 2 focuses on learning how to import new fonts, apply those new fonts, and how to draw primitive shapes on the screen using Love2D's graphics library and coordinate
+system.
+
+In this update I:
+- Imported the font file used in the EDX example
+- Created font in Love2D using font file
+- Applied new font as default font
+- Started clearing screen when drawing each frame to update what is displayed
+- Defined variables for paddle and ball sizes
+- Set the draw color to make things look less bland
+- Printed 'This is Pong' near the top of the screen in the new font
+- Drew two paddles near opposite corners of the screen
+- Drew a ball in the middle of the screen

@@ -1,0 +1,13 @@
+Update 3 focuses on detecting inputs and allowing for user interaction as well as learning how to
+apply inputs when drawing graphics to update where objects are on screen.
+
+In this update I:
+- Cleaned up the code to be more readable and organized
+- Moved all variables to the load function to avoid redefining them every frame
+- Created a new font for the score
+- Defined new variables for paddle and ball positions, paddle speed, and player scores
+- Added function for drawing player scores on each side of the screen
+- Created the update function
+- Created if statements for detecting player input through w, s, up, and down keys
+- Applied paddle speed to paddle positions depending on what input is pressed
+- Added frames per second counter in the top left for fun

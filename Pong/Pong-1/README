@@ -1,0 +1,9 @@
+Update 1 focuses on setting up a virtual resolution using the push library and changing how things are rendered by Love2D. We also learn how to detect user input and change
+the filter that is applied when rendering.
+
+In this update I:
+- Imported the Push library
+- Setup virtual rendering using Push
+- Changed the graphics filter used by Love2D to Point or 'Nearest' filtering
+- Added a function for detecting user input
+- Added functionality for terminating the game if the 'escape' key is pressed

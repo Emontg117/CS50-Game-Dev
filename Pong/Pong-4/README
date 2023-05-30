@@ -1,0 +1,14 @@
+In Update 4 we learn how to make use of game states as well as how to work with velocity and apply it to objects
+in our game. We also make use of lua's math library to generate random numbers and define minimum and maximum values
+
+In this update I:
+- Added more comments to make things more clear
+- Initialize math.randomseed using the system time of the computer
+- Use math.min() and math.max() to confine paddles to the screen
+- Use math.random() to add random velocity to the ball when the game starts
+- Define new variables for ball velocity
+- Add ball velocity to ball position every frame and multiply it by delta time to keep things consistent
+- Define two game states: start and play
+- During start the game is paused, all values are reset to defaults, and a new velocity is generated for the ball
+- During play the game is unpaused, values can change, and the players can interact with the game
+- The return (enter) key can be used to switch between these states
